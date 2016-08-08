@@ -1,0 +1,1 @@
+{  "name": "Movies API",  "version": "1.0.0",  "description": "Movies JSON API",  "sampleUrl": false,  "apidoc": "0.2.0",  "generator": {    "name": "apidoc",    "time": "2016-07-28T20:41:09.230Z",    "url": "http://apidocjs.com",    "version": "0.16.1"  }}
