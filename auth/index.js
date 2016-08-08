@@ -80,6 +80,11 @@ router.post('/login', function (request, response) {
           message: "UnAuthorized"
         });
       }
+    }).catch(function(err) {
+      response.status(503);
+      response.json({
+        message: err
+      });
     });
 });
 
